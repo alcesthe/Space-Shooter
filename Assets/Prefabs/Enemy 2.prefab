@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8922498335115555979}
   - component: {fileID: 7318421229048394881}
   - component: {fileID: -1161073598101136847}
+  - component: {fileID: -8791860480363758366}
   m_Layer: 7
   m_Name: Enemy 2
   m_TagString: Untagged
@@ -111,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  scoreValue: 100
   shotCounter: 0
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
@@ -122,3 +124,47 @@ MonoBehaviour:
   explosionSFXVolume: 0.7
   shootSFX: {fileID: 8300000, guid: 888d0f9b31db4874a879a7c0a3c8763b, type: 3}
   shootSFXVolume: 0.25
+--- !u!60 &-8791860480363758366
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8922498335115555978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.97, y: 0.84}
+    newSize: {x: 1.12, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48499998, y: 0.26999998}
+      - {x: 0.48499998, y: 0.42}
+      - {x: 0.275, y: 0.42}
+      - {x: 0.145, y: 0.34}
+      - {x: 0.105, y: 0.29999998}
+      - {x: -0.035, y: 0.29999998}
+      - {x: -0.145, y: 0.32999998}
+      - {x: -0.255, y: 0.41}
+      - {x: -0.285, y: 0.42}
+      - {x: -0.48499998, y: 0.42}
+      - {x: -0.48499998, y: 0.29999998}
+      - {x: -0.42499998, y: 0.07}
+      - {x: -0.305, y: -0.31}
+      - {x: -0.275, y: -0.34}
+      - {x: -0.145, y: -0.42}
+      - {x: 0.13499999, y: -0.42}
+      - {x: 0.185, y: -0.37}
+      - {x: 0.285, y: -0.34}
+      - {x: 0.305, y: -0.29999998}

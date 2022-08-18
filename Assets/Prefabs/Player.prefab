@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
-  health: 200
+  health: 100
   explosionSFX: {fileID: 8300000, guid: 999f99b44eead6544a64e5e40886f7db, type: 3}
   explosionSFXVolume: 0.7
   laserPrefab: {fileID: 0}

@@ -67,9 +67,16 @@ public class Player : MonoBehaviour
 
     private void DieProcess()
     {
+        FindObjectOfType<Level>().LoadGameOver();
         Destroy(gameObject);
         AudioSource.PlayClipAtPoint(explosionSFX, Camera.main.transform.position, explosionSFXVolume);
     }
+
+    public int GetHealth()
+    {
+        return health;
+    }
+
 
     private void PlayerProjectile()
     {
