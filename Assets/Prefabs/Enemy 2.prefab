@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8922498335115555979}
   - component: {fileID: 7318421229048394881}
   - component: {fileID: -1161073598101136847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,3 +115,10 @@ MonoBehaviour:
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   projectilePrefab: {fileID: 2987952807388487106, guid: 042c71f45dafeec4b82e294356a26f33, type: 3}
+  projectileSpeed: 10
+  explosionVFX: {fileID: 2191115730921981379, guid: 44b1b43974f85774ab4191f1d072cfc2, type: 3}
+  durationOfExplosion: 1
+  explosionSFX: {fileID: 8300000, guid: 999f99b44eead6544a64e5e40886f7db, type: 3}
+  explosionSFXVolume: 0.7
+  shootSFX: {fileID: 8300000, guid: 888d0f9b31db4874a879a7c0a3c8763b, type: 3}
+  shootSFXVolume: 0.25
